@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+
+    <table border="1" width="80%" align="center" style="text-align: center;" cellspacing="0">
+        <thead>
+            <tr>
+                <th>User Name</th>
+                <th>No of Calls</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for i in users %}
+                <tr>
+                    <td>{{i.vchr_user_name}}</td>
+                    <td>{{i.int_count}}</td>
+                </tr>
+            {% endfor%}
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,3 @@
+1 . create your telegram bot from telegram and copy the api key and paste it over API_KEY in impress_bot.py file
+2 . run impress_bot.py using python and text something to bot and in return it gives your options select one and it shows corresponding message to you.
+3 . run django project and click on the url after running you can now see user wise count of calls made
